@@ -25,7 +25,7 @@ function injectCSS(css) {
     if (!tab) return;
     chrome.scripting.insertCSS({
       css,
-      target: { tabId: tab.id },
+      target: { tabId: tab.id }
     });
   });
 }
