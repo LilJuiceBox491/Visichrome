@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Visichrome - Customize Your Chrome",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Adds visibility option to pages in Google Chrome allowing users to customize their page.",
   "icons": { "128": "icon128.png" },
   "action": {
