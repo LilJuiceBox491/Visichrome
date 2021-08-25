@@ -1,6 +1,7 @@
 const colorEl = document.getElementById("color-changer");
 const rotateEl = document.getElementById("rotate");
 const rotate3DEl = document.getElementById("rotate3d");
+const borderEl = document.getElementById("border");
 
 colorEl.addEventListener("input", () => {
   injectCSS(`body {
@@ -17,6 +18,12 @@ rotateEl.addEventListener("input", () => {
 rotate3DEl.addEventListener("input", () => {
   injectCSS(`body {
     transform: rotate3d(1, 1, 1, ${rotate3DEl.value}deg)!important;
+  }`);
+});
+
+borderEl.addEventListener("input", () => {
+  injectCSS(`body {
+    border: ${borderEl.value}px solid red!important;
   }`);
 });
 
